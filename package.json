@@ -1,0 +1,17 @@
+{
+  "private": true,
+  "scripts": {
+    "ProductionBuild": "webpack --mode production"
+  },
+  "devDependencies": {
+    "ts-loader": "9.2.3",
+    "typescript": "4.3.2",
+    "webpack": "5.38.1",
+    "webpack-cli": "4.7.0",
+    "webpack-node-externals": "3.0.0"
+  },
+  "dependencies": {
+    "@yamato-daiwa/es-extensions": "0.4.0",
+    "@yamato-daiwa/es-extensions-localization-japanese": "0.0.1"
+  }
+}

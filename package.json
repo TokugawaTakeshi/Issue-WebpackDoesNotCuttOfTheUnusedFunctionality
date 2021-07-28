@@ -1,5 +1,6 @@
 {
   "private": true,
+  "sideEffects": false,
   "scripts": {
     "ProductionBuild": "webpack --mode production"
   },
@@ -11,6 +12,6 @@
     "webpack-node-externals": "3.0.0"
   },
   "dependencies": {
-    "@yamato-daiwa/es-extensions": "0.4.0-experimental2"
+    "@yamato-daiwa/es-extensions": "0.4.0-experimental4"
   }
 }

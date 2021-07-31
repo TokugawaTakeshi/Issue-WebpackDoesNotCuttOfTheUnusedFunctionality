@@ -2,7 +2,8 @@
   "private": true,
   "sideEffects": false,
   "scripts": {
-    "ProductionBuild": "webpack --mode production"
+    "clean": "rm -rf ./index.js",
+    "ProductionBuild": "npm run clean; webpack --mode production"
   },
   "devDependencies": {
     "ts-loader": "9.2.3",
@@ -12,6 +13,6 @@
     "webpack-node-externals": "3.0.0"
   },
   "dependencies": {
-    "@yamato-daiwa/es-extensions": "0.4.0-experimental4"
+    "@yamato-daiwa/es-extensions": "file:../yamato_daiwa-es_extensions/Distributable/"
   }
 }

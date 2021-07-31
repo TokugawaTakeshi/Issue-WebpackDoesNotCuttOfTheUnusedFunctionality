@@ -36,7 +36,7 @@ module.exports = (env, argv) => {
     /* --- CLI + ProjectBuilder ------------------------------------------------------------------------------------- */
     {
       name: 'CLI parser',
-      // target: 'node',
+      target: 'node',
 
       context,
       entry: {

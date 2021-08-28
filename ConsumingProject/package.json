@@ -1,0 +1,22 @@
+{
+  "private": true,
+  "sideEffects": false,
+  "scripts": {
+    "Webpack:ProductionBuild": "webpack --mode production",
+    "TSNode test": "ts-node src/index.ts",
+    "Native NodeJS text": "node NodeJS",
+    "Clear dependensies and reinstall": "(rm node_modules || del node_modules /F /Q) && npm i"
+  },
+  "devDependencies": {
+    "del-cli": "4.0.1",
+    "ts-loader": "9.2.5",
+    "ts-node": "10.2.1",
+    "typescript": "4.4.2",
+    "webpack": "5.51.1",
+    "webpack-cli": "4.8.0",
+    "webpack-node-externals": "3.0.0"
+  },
+  "dependencies": {
+    "@yamato-daiwa/es-extensions": "1.0.1-experimental2"
+  }
+}

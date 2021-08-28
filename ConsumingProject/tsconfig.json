@@ -10,9 +10,6 @@
     "experimentalDecorators": true,
     "skipLibCheck": true,
 
-    "baseUrl": "./",
-    "paths": {
-      "@SourceFilesRoot/*": ["./src/*"]
-    }
+    "baseUrl": "./"
   }
 }

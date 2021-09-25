@@ -5,10 +5,9 @@
     "Webpack:ProductionBuild": "webpack --mode production",
     "TSNode test": "ts-node src/index.ts",
     "Native NodeJS text": "node NodeJS",
-    "Clear dependensies and reinstall": "(rm node_modules || del node_modules /F /Q) && npm i"
+    "Clear dependencies and reinstall": "(rm node_modules || del node_modules /F /Q) && npm i"
   },
   "devDependencies": {
-    "del-cli": "4.0.1",
     "ts-loader": "9.2.5",
     "ts-node": "10.2.1",
     "typescript": "4.4.2",

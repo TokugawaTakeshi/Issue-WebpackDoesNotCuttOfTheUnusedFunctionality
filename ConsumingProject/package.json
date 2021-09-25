@@ -16,6 +16,6 @@
     "webpack-node-externals": "3.0.0"
   },
   "dependencies": {
-    "@yamato-daiwa/es-extensions": "../Library"
+    "@yamato-daiwa/es-extensions": "../Library/Distributable"
   }
 }

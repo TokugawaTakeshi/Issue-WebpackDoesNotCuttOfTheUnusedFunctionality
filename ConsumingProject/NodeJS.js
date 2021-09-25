@@ -1,0 +1,1 @@
+(()=>{"use strict";const e=require("@yamato-daiwa/es-extensions");console.log((0,e.isUndefined)("ALPHA")),console.log("End of the script")})();

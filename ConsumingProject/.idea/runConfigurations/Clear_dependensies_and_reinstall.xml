@@ -3,7 +3,7 @@
     <package-json value="$PROJECT_DIR$/package.json" />
     <command value="run" />
     <scripts>
-      <script value="Clear dependensies and reinstall" />
+      <script value="Clear dependencies and reinstall" />
     </scripts>
     <node-interpreter value="project" />
     <envs />

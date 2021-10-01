@@ -4,7 +4,7 @@
   "scripts": {
     "Webpack:ProductionBuild": "webpack --mode production",
     "TSNode test": "ts-node src/index.ts",
-    "Native NodeJS text": "node NodeJS",
+    "Native NodeJS test": "node NodeJS",
     "Clear dependencies and reinstall": "(rm node_modules || del node_modules /F /Q) && npm i"
   },
   "devDependencies": {
@@ -16,6 +16,6 @@
     "webpack-node-externals": "3.0.0"
   },
   "dependencies": {
-    "@yamato-daiwa/es-extensions": "1.0.1-experimental2"
+    "@yamato-daiwa/es-extensions": "../Library"
   }
 }

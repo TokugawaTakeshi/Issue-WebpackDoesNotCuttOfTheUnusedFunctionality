@@ -21,19 +21,15 @@
     "email": "tokugawa.takesi@gmail.com"
   },
   "main": "./Distributable/index.js",
+  "sideEffects": false,
   "types": "./Distributable/index.d.ts",
   "devDependencies": {
-    "@types/mocha": "9.0.0",
-    "@types/node": "16.7.1",
-    "mocha": "9.1.0",
-    "ts-node": "10.2.1",
-    "typescript": "4.3.5",
-    "yamato-daiwa_code_quality_management": "0.0.17"
+    "typescript": "4.3.5"
   },
   "engines": {
     "node": ">=10.4.0"
   },
   "scripts": {
-    "Lint": "eslint Source Tests"
+    "Clean and rebuild": "(rm Distributable || del Distributable /F /Q) && tsc"
   }
 }

@@ -3,7 +3,7 @@
   "sideEffects": false,
   "scripts": {
     "Webpack:ProductionBuild": "webpack --mode production",
-    "TSNode test": "ts-node src/index.ts",
+    "TSNode test": "ts-node index.ts",
     "Native NodeJS test": "node NodeJS",
     "Clear dependencies and reinstall": "(rm node_modules || del node_modules /F /Q) && npm i"
   },
